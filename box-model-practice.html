@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Practice</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Exercise 1 */
+        .box {
+            background-color: lightblue;
+            padding: 20px;
+            border: 5px solid blue;
+            margin: 20px;
+        }
+
+        /* Exercise 2 */
+        .broken-box {
+            width: 300px;
+            padding: 20px;
+            border: none;
+            box-sizing: border-box;
+            background-color: lightgreen;
+        }
+
+        /* Exercise 3 */
+        .card {
+            width: 300px;
+            box-sizing: border-box;
+            padding: 20px;
+            border: 1px solid gray;
+            margin-top: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Box Model Practice</h1>
+
+    <h2>Exercise 1: Box Model Visualization</h2>
+
+    <div class="box">
+        Box 1: Content, Padding, Border, and Margin
+    </div>
+
+    <div class="box">
+        Box 2: Content, Padding, Border, and Margin
+    </div>
+
+    <div class="box">
+        Box 3: Content, Padding, Border, and Margin
+    </div>
+
+    <div class="box">
+        Box 4: Content, Padding, Border, and Margin
+    </div>
+
+    <h2>Exercise 2: Debug the Layout</h2>
+
+    <div class="broken-box">
+        This box should be exactly 300px wide.
+    </div>
+
+    <h2>Exercise 3: Card Component</h2>
+
+    <div class="card">
+        <img src="https://placehold.co/260x150" alt="Sample card image">
+
+        <h3>My Practice Card</h3>
+
+        <p>This card demonstrates the CSS Box Model.</p>
+    </div>
+
+</body>
+</html>
