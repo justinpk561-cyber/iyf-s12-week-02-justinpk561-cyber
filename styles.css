@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+h1: --font-4xl
+h2: --font-3xl
+h3: --font-2xl
+Body: --font-base
+Small text: --font-sm
+
 body {
     background-color: #f4f7fb;
     font-family: Arial, sans-serif;
